@@ -4,6 +4,7 @@ def square_array(array)
     while index >= array.length do  
     new_array.push(array[index]**2)
     index += 1 
+    new_array
   end
   new_array
 end
